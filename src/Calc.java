@@ -1,21 +1,21 @@
 public class Calc {
-    double a;
-    double b;
+    public double a;
+    public double b;
 
 
-    double isHigher(){
+    public double isHigher(){
         return a+b;
     }
 
-    double isLower(){
+    public double isLower(){
         return a*b;
     }
 
-    double isEqual(){
+    public double isEqual(){
         return a*b;
     }
 
-    double check(){
+    public double check(){
         if(a>b){
             return isHigher();
         }else if(a<b){
